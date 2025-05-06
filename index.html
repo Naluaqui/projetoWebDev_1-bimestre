@@ -1,40 +1,44 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="./src/css/style.css">
     <title>Projeto</title>
 </head>
+
 <body>
     <!-- Div de apresentação -->
-     <div id="inicio">
+    <div id="inicio">
         <h1 id="titulo"></h1>
         <p id="texto"></p>
-        <img src="" alt="Imagem">
-     </div>
-     <!-- Cabeçalho da página -->
-     <header>
+        <img src="./src/assets/logo.gif" alt="Imagem" class="inicio">
+    </div>
+    <!-- Cabeçalho da página -->
+    <header>
         <img src="" alt="Logo" id="logo">
         <nav>
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="sobre.html">Sobre</a></li>
-                <li><a href="contato.html">Contato</a></li>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./src/pages/sobre.html">Sobre</a></li>
+                <li><a href="./src/pages/quiz.html">Quiz</a></li>
+                <li><a href="./src/pages/contato.html">Contato</a></li>
             </ul>
         </nav>
         <div>
-            <input type="text" class="cor" onclick="trocar('#3ae4b1')">
-            <input type="text" class="cor" onclick="trocar('#c13af2')">
-            <input type="text" class="cor" onclick="trocar('#fbff24')">
+            <input type="button" class="cor" onclick="trocar('#3ae4b1')">
+            <input type="button" class="cor" onclick="trocar('#c13af2')">
+            <input type="button" class="cor" onclick="trocar('#fbff24')">
         </div>
-     </header>
+    </header>
 
-     <!-- Rodapé da Página -->
-      <footer>
+    <!-- Rodapé da Página -->
+    <footer>
         <p>&copy; 2025 - Todos os direitos reservados</p>
-      </footer>
-      <!-- Chamando Java Script Externo -->
-      <script src="./src/js/script.js"></script>
+    </footer>
+    <!-- Chamando Java Script Externo -->
+    <script src="./src/js/script.js"></script>
 </body>
+
 </html>
