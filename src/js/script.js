@@ -10,3 +10,6 @@ window.onload = function () {
         }, 1000)
     }, 3000)
 }
+function trocar(cor){
+    document.body.style.background=cor;
+}
