@@ -12,21 +12,7 @@ Foi meu ponto de partida na jornada como desenvolvedora! 🚀
 ---
 
 ## 📁 Estrutura do Projeto
-projeto-web/
-├── index.html
-└── src/
-    ├── assets/
-    │   └── logo.gif
-    ├── css/
-    │   └── style.css
-    ├── js/
-    │   ├── script.js
-    │   └── contato.js
-    └── pages/
-        ├── sobre.html
-        ├── quiz.html
-        └── contato.html
-
+<pre lang="markdown"><code>```txt projeto-web/ ├── index.html └── src/ ├── assets/ │ └── logo.gif ├── css/ │ └── style.css ├── js/ │ ├── script.js │ └── contato.js └── pages/ ├── sobre.html ├── quiz.html └── contato.html ```</code></pre>
 ---
 
 ## ✨ Funcionalidades
