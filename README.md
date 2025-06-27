@@ -12,21 +12,20 @@ Foi meu ponto de partida na jornada como desenvolvedora! 🚀
 ---
 
 ## 📁 Estrutura do Projeto
-📂 projeto-web/
+projeto-web/
 ├── index.html
-├── 📂 src/
-│ ├── 📂 css/
-│ │ └── style.css
-│ ├── 📂 js/
-│ │ ├── script.js
-│ │ └── contato.js
-│ ├── 📂 assets/
-│ │ └── logo.gif
-│ └── 📂 pages/
-│ ├── sobre.html
-│ ├── quiz.html
-│ └── contato.html
-
+└── src/
+    ├── assets/
+    │   └── logo.gif
+    ├── css/
+    │   └── style.css
+    ├── js/
+    │   ├── script.js
+    │   └── contato.js
+    └── pages/
+        ├── sobre.html
+        ├── quiz.html
+        └── contato.html
 
 ---
 
